@@ -39,13 +39,13 @@ The dada2 package infers exact amplicon sequence variants (ASVs) from high-throu
 
   - The `dada` function can now accept fastq filenames rather than requiring files be dereplicated and stored into memory first. This allows memory requirements to remain flat when processing large numbers of samples.
 
-  - Pseudo-pooling, an algorithmic approximation to sample inference from pooled samples, now has memory requirements that remain flat with sample number when invoked using filenames, e.g. `dada(fastqFiles, err=err, pool="pseudo")`. We now recommend pseudo-pooling for those interested in detecting singleton ASVs in their samples.
+  - [Pseudo-pooling, an algorithmic approximation to sample inference from pooled samples](https://benjjneb.github.io/dada2/pseudo.html#pseudo-pooling), now has memory requirements that remain flat with sample number when invoked using filenames, e.g. `dada(fastqFiles, err=err, pool="pseudo")`. We now recommend pseudo-pooling for those interested in detecting singleton ASVs in their samples.
 
 ## **BUG FIXES**
 
-  - Pooled sample inference with dada(..., pool=TRUE) no longer fails to output the most abundant ASV in the first sample under certain conditions.
+  - Pooled sample inference with `dada(..., pool=TRUE)` no longer fails to output the most abundant ASV in the first sample under certain conditions.
 
-  - The data.frame returned by mergePairs is now properly formatted even when only one sample was provided as a list.
+  - The `data.frame` returned by `mergePairs` is now properly formatted even when only one sample was provided as a list.
 
 
 
