@@ -1,0 +1,17 @@
+---
+title: 'phyloseq: Analyze microbiome census data using R'
+author: "Hao"
+date: "7/9/2019"
+output:   
+  html_document:
+    number_sections: FALSE
+    toc: true
+    fig_width: 8
+    fig_height: 6
+    theme: paper
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```

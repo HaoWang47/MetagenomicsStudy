@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 *.html
+*.pdf
+MiSeq_SOP
+.DS_Store
