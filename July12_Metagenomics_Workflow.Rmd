@@ -1,0 +1,27 @@
+---
+title: "Metagenomics Workflow"
+author: "Hao"
+date: "7/11/2019"
+output:   
+  html_document:
+    number_sections: FALSE
+    toc: true
+    fig_width: 8
+    fig_height: 6
+    theme: paper
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+
+
+Soucre: [userach V11](https://drive5.com/usearch/manual/)
+Source: [16S rRNA analysis by R.Lappan](https://rachaellappan.github.io/16S-analysis/)
+
+![overview.png]
+
+**Common Workflow:**
+  - 
+
